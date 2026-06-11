@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Monthly vinyasa flow themes and workshop announcements from Ben Randall, PhD, RYT 500.">
+  <title>Flow Themes | Ben Randall, PhD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Instagram embed overrides — keeps embeds from stretching weirdly */
+    .ig-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 2rem;
+      align-items: start;
+    }
+    .ig-entry { display: flex; flex-direction: column; gap: 0.75rem; }
+    .ig-entry__meta { }
+    .ig-entry__label {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--lav);
+    }
+    .ig-entry__title {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 0.25rem 0 0.35rem;
+    }
+    .ig-entry__note {
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    /* Year heading */
+    .ig-year-heading {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.4rem;
+      color: var(--plum);
+      margin: 0 0 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--lav);
+    }
+    .ig-year-heading:not(:first-child) {
+      margin-top: 3rem;
+    }
+    /* Flyer image */
+    .ig-entry__photo img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 1px 8px rgba(44,62,80,0.07);
+    }
+    /* Placeholder card for empty slots */
+    .ig-placeholder {
+      background: var(--tint);
+      border: 2px dashed rgba(180,160,212,0.4);
+      border-radius: 10px;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .ig-placeholder strong { display: block; font-family: 'Lora', Georgia, serif; font-size: 1rem; margin-bottom: 0.4rem; color: var(--text); }
+    @media (max-width: 700px) { .ig-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="assets/icon_ai_lotus.svg" alt="" class="nav__logo">
+        <span class="nav__name">Ben Randall, PhD</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academic.html">Academic</a></li>
+        <li><a href="yoga.html" class="active">Yoga</a></li>
+        <li><a href="tutoring.html">Tutoring</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get in touch</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="page-header page-header--lav">
+      <div class="container">
+        <p class="page-header__eyebrow">Flows &amp; Announcements</p>
+        <h1 class="page-header__title">Monthly Themes &amp; Workshops</h1>
+        <p class="page-header__sub">See past vinyasa flow themes and workshop flyers</p>
+        <p style="margin-top:0.75rem;font-size:0.9rem;">
+          <a href="yoga.html" style="color:var(--lav);font-weight:700;">&larr; Back to Yoga</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- How to add posts — visible only to you as a comment, but here as a note too 
+    <section class="section section--tint" style="padding:1.5rem 0;">
+      <div class="container">
+        <div style="background:var(--concept);border-radius:8px;padding:1rem 1.25rem;border-left:4px solid var(--blue);font-size:0.88rem;color:var(--muted);">
+          <strong style="color:var(--text);">How to add a new post to this page:</strong>
+          Save the flyer image into <code style="background:var(--white);padding:0.1rem 0.3rem;border-radius:3px;">assets/flow-themes/</code>,
+          then copy a new <code style="background:var(--white);padding:0.1rem 0.3rem;border-radius:3px;">&lt;div class="ig-entry"&gt;</code>
+          block below, above the existing entries. Update the image filename, label, title, and note. That is all.
+          
+        </div>
+      </div>
+    </section>
+    Remove this box once you are comfortable with the process
+    -->
+
+    <section class="section">
+      <div class="container">
+
+        <!-- ═══════════════════════════════════════════════════════
+             NEW YEAR? Copy this block above the 2026 heading:
+
+             <h2 class="ig-year-heading">2027</h2>
+             <div class="ig-grid">
+               ...that year's entries...
+             </div>
+        ═══════════════════════════════════════════════════════ -->
+
+        <h2 class="ig-year-heading">2026</h2>
+        <div class="ig-grid">
+
+          <!-- ═══════════════════════════════════════════════════════
+               PASTE NEW ENTRIES AT THE TOP OF THIS GRID.
+               Each entry looks like this:
+
+               <div class="ig-entry">
+                 <div class="ig-entry__photo">
+                   <img src="assets/flow-themes/your-flyer.jpg" alt="Flyer description">
+                 </div>
+                 <div class="ig-entry__meta">
+                   <p class="ig-entry__label">Flow Theme &middot; June 2026</p>
+                   <h3 class="ig-entry__title">Your Theme Title</h3>
+                   <p class="ig-entry__note">Optional note about this theme.</p>
+                 </div>
+               </div>
+          ═══════════════════════════════════════════════════════ -->
+
+          <!-- NEXT ENTRY (replace with your next flyer) 
+          <div class="ig-entry">
+            <div class="ig-placeholder">
+              <strong>Drop your next flyer here</strong>
+              Save the image to <code style="background:var(--white);padding:0.1rem 0.3rem;border-radius:3px;">assets/flow-themes/</code> and update this entry.
+            </div>
+          </div>
+          -->
+
+          <div class="ig-entry">
+            <div class="ig-entry__photo">
+              <img src="assets/flow-themes/2026-06-summer-swole-stice.jpg" alt="June Flow: Summer Swole-stice Flow flyer">
+            </div>
+            <div class="ig-entry__meta">
+              <p class="ig-entry__label">Flow Theme &middot; June 2026</p>
+              <h3 class="ig-entry__title">Summer Swole-stice Flow</h3>
+              <p class="ig-entry__note">The sun is at its peak and so are you.</p>
+            </div>
+          </div>
+
+          <div class="ig-entry">
+            <div class="ig-entry__photo">
+              <img src="assets/flow-themes/2026-05-may-lasana-flow.jpg" alt="May Flow: May-lasana Flow flyer">
+            </div>
+            <div class="ig-entry__meta">
+              <p class="ig-entry__label">Flow Theme &middot; May 2026</p>
+              <h3 class="ig-entry__title">May-lasana Flow</h3>
+              <p class="ig-entry__note">Ignite your sacral chakra with this hip-opening, grounding flow.</p>
+            </div>
+          </div>
+
+          <div class="ig-entry">
+            <div class="ig-entry__photo">
+              <img src="assets/flow-themes/2026-04-april-showers.jpg" alt="April Flow: April Showers Flow flyer">
+            </div>
+            <div class="ig-entry__meta">
+              <p class="ig-entry__label">Flow Theme &middot; April 2026</p>
+              <h3 class="ig-entry__title">April Showers Flow</h3>
+              <p class="ig-entry__note">Alleviating the Carolina drought with a water-inspired flow.</p>
+            </div>
+          </div>
+
+          <div class="ig-entry">
+            <div class="ig-entry__photo">
+              <img src="assets/flow-themes/2026-03-mandala-flow.jpg" alt="March Flow: Mandala Flow flyer">
+            </div>
+            <div class="ig-entry__meta">
+              <p class="ig-entry__label">Flow Theme &middot; March 2026</p>
+              <h3 class="ig-entry__title">Mandala Flow</h3>
+              <p class="ig-entry__note">No hiding in the rear of the room when the back of the mat becomes the front &mdash; shoot for the stars with this twisty, archer-focused mandala flow.</p>
+            </div>
+          </div>
+
+          <div class="ig-entry">
+            <div class="ig-entry__photo">
+              <img src="assets/flow-themes/2026-02-love-boat-flow.jpg" alt="February Flow: Love Boat Flow flyer">
+            </div>
+            <div class="ig-entry__meta">
+              <p class="ig-entry__label">Flow Theme &middot; February 2026</p>
+              <h3 class="ig-entry__title">Love Boat Flow</h3>
+              <p class="ig-entry__note">Open your heart, challenge your core, and invoke compassion for yourself and others in this vigorous, creative flow.</p>
+            </div>
+          </div>
+
+          <div class="ig-entry">
+            <div class="ig-entry__photo">
+              <img src="assets/flow-themes/2026-01-back-to-basics.jpg" alt="January Flow: Back to Basics flyer">
+            </div>
+            <div class="ig-entry__meta">
+              <p class="ig-entry__label">Flow Theme &middot; January 2026</p>
+              <h3 class="ig-entry__title">Back to Basics</h3>
+              <p class="ig-entry__note">A time to rediscover your practice at a foundational level.</p>
+            </div>
+          </div>
+
+        </div><!-- /ig-grid -->
+
+      </div>
+    </section>
+
+    <!-- Link to full Instagram profile -->
+    <section class="section section--tint" style="padding:2rem 0;text-align:center;">
+      <div class="container">
+        <p style="color:var(--muted);margin-bottom:1rem;">See everything on Instagram</p>
+        <a href="https://www.instagram.com/ebenjaminrandall/" target="_blank" rel="noopener" class="btn btn--secondary">
+          @ebenjaminrandall on Instagram &rarr;
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="index.html" class="footer__brand">
+        <img src="assets/icon_ai_lotus.svg" alt="" class="footer__logo">
+        <span class="footer__name">Ben Randall, PhD</span>
+      </a>
+      <p class="footer__copy">&#169; 2026 E. Benjamin Randall. All rights reserved.</p>
+      <nav class="footer__social" aria-label="Social links">
+        <a href="mailto:ebenjaminrandall@gmail.com">Email</a>
+        <a href="https://www.instagram.com/ebenjaminrandall/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/ebenjaminrandall/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ebenjaminrandall/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=M6UoraMAAAAJ" target="_blank" rel="noopener">Scholar</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

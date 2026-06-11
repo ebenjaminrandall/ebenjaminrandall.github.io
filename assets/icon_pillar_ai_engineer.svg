@@ -1,0 +1,18 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bottleneck / encoder-decoder neural network — AI Engineer pillar card icon -->
+  <!-- 3 Carolina Blue input nodes → Mulled Plum center → 3 Lavender output nodes -->
+  <line x1="5" y1="6" x2="16" y2="16" stroke="#7BAFD4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="5" y1="16" x2="16" y2="16" stroke="#7BAFD4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="5" y1="26" x2="16" y2="16" stroke="#7BAFD4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="16" y1="16" x2="27" y2="6" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="16" y1="16" x2="27" y2="16" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="16" y1="16" x2="27" y2="26" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <circle cx="5" cy="6" r="2.8" fill="#7BAFD4"/>
+  <circle cx="5" cy="16" r="2.8" fill="#7BAFD4"/>
+  <circle cx="5" cy="26" r="2.8" fill="#7BAFD4"/>
+  <circle cx="27" cy="6" r="2.8" fill="#B4A0D4"/>
+  <circle cx="27" cy="16" r="2.8" fill="#B4A0D4"/>
+  <circle cx="27" cy="26" r="2.8" fill="#B4A0D4"/>
+  <circle cx="16" cy="16" r="4.5" fill="#9D3E5E"/>
+  <circle cx="16" cy="16" r="2" fill="white" opacity="0.35"/>
+</svg>

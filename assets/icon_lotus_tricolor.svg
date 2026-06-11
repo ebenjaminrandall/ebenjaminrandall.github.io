@@ -1,0 +1,31 @@
+<svg viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tricolor bevel lotus — Three Pillars variant (locked June 8, 2026) -->
+  <!-- Blue center on top (drawn last), Lavender left, Plum right, all three in outer ring -->
+  <defs>
+    <linearGradient id="gBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B8D4E8"/>
+      <stop offset="55%" stop-color="#7BAFD4"/>
+      <stop offset="100%" stop-color="#5E92B8"/>
+    </linearGradient>
+    <linearGradient id="gLav" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D7C7E8"/>
+      <stop offset="55%" stop-color="#B4A0D4"/>
+      <stop offset="100%" stop-color="#9684B5"/>
+    </linearGradient>
+    <linearGradient id="gPlum" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C97090"/>
+      <stop offset="55%" stop-color="#9D3E5E"/>
+      <stop offset="100%" stop-color="#7A2C47"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer petals: Plum sides first, Lavender sides, Blue top last -->
+  <path d="M300,360 C337.36,250.71 501.57,270.22 519.69,288.62 C515.85,314.16 394.46,426.46 300,360 Z" fill="url(#gPlum)" fill-opacity="0.45"/>
+  <path d="M300,360 C205.54,426.46 84.15,314.16 80.31,288.62 C98.43,270.22 262.64,250.71 300,360 Z" fill="url(#gLav)" fill-opacity="0.45"/>
+  <path d="M300,360 C265.98,249.62 410.30,168.88 435.78,173.12 C447.68,196.04 415.49,358.25 300,360 Z" fill="url(#gPlum)" fill-opacity="0.45"/>
+  <path d="M300,360 C184.51,358.25 152.32,196.04 164.22,173.12 C189.70,168.88 334.02,249.62 300,360 Z" fill="url(#gLav)" fill-opacity="0.45"/>
+  <path d="M300,360 C207.60,290.70 276.90,140.55 300,129.00 C323.10,140.55 392.40,290.70 300,360 Z" fill="url(#gBlue)" fill-opacity="0.5"/>
+  <!-- Inner petals: Plum right, Lavender left, Blue center drawn last (on top) -->
+  <path d="M300,360 C260.96,278.02 365.32,209.47 385.80,211.39 C397.70,228.17 390.52,352.82 300,360 Z" fill="url(#gPlum)"/>
+  <path d="M300,360 C209.48,352.82 202.30,228.17 214.20,211.39 C234.68,209.47 339.04,278.02 300,360 Z" fill="url(#gLav)"/>
+  <path d="M300,360 C225.20,308.52 281.30,196.98 300,188.40 C318.70,196.98 374.80,308.52 300,360 Z" fill="url(#gBlue)"/>
+</svg>

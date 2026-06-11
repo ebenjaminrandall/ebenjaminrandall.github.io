@@ -1,0 +1,14 @@
+<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pure Lotus — yoga teaching materials brand mark — E. Benjamin Randall -->
+  <!-- Colors: Carolina Blue #7BAFD4 (center petals), Twilight Lavender #B4A0D4 (outer petals), Mulled Plum #9D3E5E (stem) -->
+  <!-- Center petal (top) -->
+  <ellipse cx="14" cy="10" rx="3.2" ry="6.5" fill="#7BAFD4"/>
+  <!-- Inner side petals -->
+  <ellipse cx="8.5" cy="13" rx="3.2" ry="6.5" transform="rotate(-38 8.5 13)" fill="#7BAFD4" opacity="0.78"/>
+  <ellipse cx="19.5" cy="13" rx="3.2" ry="6.5" transform="rotate(38 19.5 13)" fill="#7BAFD4" opacity="0.78"/>
+  <!-- Outer side petals (Lavender) -->
+  <ellipse cx="4" cy="16" rx="2.5" ry="5" transform="rotate(-68 4 16)" fill="#B4A0D4" opacity="0.6"/>
+  <ellipse cx="24" cy="16" rx="2.5" ry="5" transform="rotate(68 24 16)" fill="#B4A0D4" opacity="0.6"/>
+  <!-- Stem -->
+  <path d="M10 23 Q14 21.5 18 23" stroke="#9D3E5E" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+</svg>

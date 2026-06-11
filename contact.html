@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Ben Randall, PhD: yoga, tutoring, or research inquiries.">
+  <title>Contact | Ben Randall, PhD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="assets/icon_ai_lotus.svg" alt="" class="nav__logo">
+        <span class="nav__name">Ben Randall, PhD</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academic.html">Academic</a></li>
+        <li><a href="yoga.html">Yoga</a></li>
+        <li><a href="tutoring.html">Tutoring</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="mailto:ebenjaminrandall@gmail.com" class="nav__cta">Email me</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__eyebrow">Contact</p>
+        <h1 class="page-header__title">Get in Touch</h1>
+        <p class="page-header__sub">Yoga, tutoring, research, or just to say hello</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+
+          <!-- Form -->
+          <div>
+            <span class="label">Send a message</span>
+            <p style="color:var(--muted);margin:0.75rem 0 1.5rem;font-size:0.95rem;">
+              Fill out the form and I will get back to you as soon as I can.
+              For quicker responses, email me directly at
+              <a href="mailto:ebenjaminrandall@gmail.com">ebenjaminrandall@gmail.com</a>.
+            </p>
+            <form class="contact-form" action="https://formspree.io/f/placeholder" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Yoga workshop, tutoring, research...">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me what you are looking for..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary">Send message</button>
+            </form>
+            <p style="font-size:0.8rem;color:var(--muted);margin-top:1rem;">
+              Note: the contact form will be active once the site is connected to a form service.
+              In the meantime, email directly.
+            </p>
+          </div>
+
+          <!-- Contact info + social -->
+          <div style="display:flex;flex-direction:column;gap:1.5rem;">
+
+            <div style="background:var(--tint);border-radius:10px;padding:1.5rem;border-top:4px solid var(--blue);">
+              <span class="label">Direct contact</span>
+              <p style="margin-top:0.75rem;font-size:0.95rem;">
+                <strong>Email</strong><br>
+                <a href="mailto:ebenjaminrandall@gmail.com">ebenjaminrandall@gmail.com</a>
+              </p>
+              <p style="margin-top:0.75rem;font-size:0.92rem;color:var(--muted);">
+                Based in Charlotte, NC.<br>
+                Virtual sessions available worldwide via Zoom.
+              </p>
+            </div>
+
+            <div style="background:var(--tint);border-radius:10px;padding:1.5rem;">
+              <span class="label">Find me online</span>
+              <div class="social-links" style="margin-top:0.85rem;">
+                <a href="https://www.instagram.com/ebenjaminrandall/" target="_blank" rel="noopener" class="social-link">Instagram</a>
+                <a href="https://www.linkedin.com/in/ebenjaminrandall/" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
+                <a href="https://github.com/ebenjaminrandall/" target="_blank" rel="noopener" class="social-link">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=M6UoraMAAAAJ" target="_blank" rel="noopener" class="social-link">Google Scholar</a>
+              </div>
+            </div>
+
+            <div style="background:var(--practice);border-radius:10px;padding:1.5rem;border-top:4px solid var(--lav);">
+              <span class="label label--lav">Yoga inquiries</span>
+              <p style="margin-top:0.75rem;font-size:0.92rem;color:var(--muted);">
+                For workshop bookings, teacher training partnerships, or the Anatomy &amp; Physiology
+                course, reach out directly. I am happy to bring any workshop to your studio or program.
+              </p>
+            </div>
+
+            <div style="background:var(--aware);border-radius:10px;padding:1.5rem;border-top:4px solid var(--plum);">
+              <span class="label label--plum">Tutoring inquiries</span>
+              <p style="margin-top:0.75rem;font-size:0.92rem;color:var(--muted);">
+                For tutoring, please include your level (middle school, undergraduate, graduate),
+                the subject, and your availability. Regular slots open Sunday, Monday, and Wednesday evenings.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="index.html" class="footer__brand">
+        <img src="assets/icon_ai_lotus.svg" alt="" class="footer__logo">
+        <span class="footer__name">Ben Randall, PhD</span>
+      </a>
+      <p class="footer__copy">&#169; 2026 E. Benjamin Randall. All rights reserved.</p>
+      <nav class="footer__social" aria-label="Social links">
+        <a href="mailto:ebenjaminrandall@gmail.com">Email</a>
+        <a href="https://www.instagram.com/ebenjaminrandall/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/ebenjaminrandall/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ebenjaminrandall/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=M6UoraMAAAAJ" target="_blank" rel="noopener">Scholar</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

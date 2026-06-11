@@ -1,0 +1,44 @@
+<svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- AI + Lotus personal brand mark — E. Benjamin Randall -->
+  <!-- Five-petal lotus geometry overlaid with neural network nodes and connections -->
+  <!-- Colors: Carolina Blue #7BAFD4 (inner nodes/connections), Twilight Lavender #B4A0D4 (outer nodes), Mulled Plum #9D3E5E (center) -->
+  <!-- Petal background ellipses (subtle, 10% opacity) -->
+  <ellipse cx="30" cy="20" rx="4" ry="12" fill="#7BAFD4" opacity="0.1"/>
+  <ellipse cx="20.5" cy="26.9" rx="4" ry="12" transform="rotate(-72 20.5 26.9)" fill="#7BAFD4" opacity="0.1"/>
+  <ellipse cx="24.1" cy="38.1" rx="4" ry="12" transform="rotate(-144 24.1 38.1)" fill="#7BAFD4" opacity="0.1"/>
+  <ellipse cx="35.9" cy="38.1" rx="4" ry="12" transform="rotate(144 35.9 38.1)" fill="#7BAFD4" opacity="0.1"/>
+  <ellipse cx="39.5" cy="26.9" rx="4" ry="12" transform="rotate(72 39.5 26.9)" fill="#7BAFD4" opacity="0.1"/>
+  <!-- Outer to inner connections (Lavender) -->
+  <line x1="30" y1="10" x2="30" y2="17" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="11" y1="23.8" x2="17.6" y2="26" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="18.2" y1="46.2" x2="22.3" y2="40.5" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="41.8" y1="46.2" x2="37.7" y2="40.5" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <line x1="49" y1="23.8" x2="42.4" y2="26" stroke="#B4A0D4" stroke-width="0.9" opacity="0.65"/>
+  <!-- Inner ring pentagon connections (Carolina Blue, faint) -->
+  <line x1="30" y1="17" x2="17.6" y2="26" stroke="#7BAFD4" stroke-width="0.7" opacity="0.38"/>
+  <line x1="17.6" y1="26" x2="22.3" y2="40.5" stroke="#7BAFD4" stroke-width="0.7" opacity="0.38"/>
+  <line x1="22.3" y1="40.5" x2="37.7" y2="40.5" stroke="#7BAFD4" stroke-width="0.7" opacity="0.38"/>
+  <line x1="37.7" y1="40.5" x2="42.4" y2="26" stroke="#7BAFD4" stroke-width="0.7" opacity="0.38"/>
+  <line x1="42.4" y1="26" x2="30" y2="17" stroke="#7BAFD4" stroke-width="0.7" opacity="0.38"/>
+  <!-- Center to inner ring (Carolina Blue) -->
+  <line x1="30" y1="30" x2="30" y2="17" stroke="#7BAFD4" stroke-width="1.1" opacity="0.6"/>
+  <line x1="30" y1="30" x2="17.6" y2="26" stroke="#7BAFD4" stroke-width="1.1" opacity="0.6"/>
+  <line x1="30" y1="30" x2="22.3" y2="40.5" stroke="#7BAFD4" stroke-width="1.1" opacity="0.6"/>
+  <line x1="30" y1="30" x2="37.7" y2="40.5" stroke="#7BAFD4" stroke-width="1.1" opacity="0.6"/>
+  <line x1="30" y1="30" x2="42.4" y2="26" stroke="#7BAFD4" stroke-width="1.1" opacity="0.6"/>
+  <!-- Outer ring nodes (Twilight Lavender) -->
+  <circle cx="30" cy="10" r="2.8" fill="#B4A0D4"/>
+  <circle cx="11" cy="23.8" r="2.8" fill="#B4A0D4"/>
+  <circle cx="18.2" cy="46.2" r="2.8" fill="#B4A0D4"/>
+  <circle cx="41.8" cy="46.2" r="2.8" fill="#B4A0D4"/>
+  <circle cx="49" cy="23.8" r="2.8" fill="#B4A0D4"/>
+  <!-- Inner ring nodes (Carolina Blue) -->
+  <circle cx="30" cy="17" r="3.5" fill="#7BAFD4"/>
+  <circle cx="17.6" cy="26" r="3.5" fill="#7BAFD4"/>
+  <circle cx="22.3" cy="40.5" r="3.5" fill="#7BAFD4"/>
+  <circle cx="37.7" cy="40.5" r="3.5" fill="#7BAFD4"/>
+  <circle cx="42.4" cy="26" r="3.5" fill="#7BAFD4"/>
+  <!-- Center node (Mulled Plum) -->
+  <circle cx="30" cy="30" r="6" fill="#9D3E5E"/>
+  <circle cx="30" cy="30" r="2.5" fill="white" opacity="0.4"/>
+</svg>
